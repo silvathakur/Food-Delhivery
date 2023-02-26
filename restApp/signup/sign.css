@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(rgb(2, 2, 33), rgb(97, 97, 154)); */
+    background-image: url("../login/lg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+form {
+    box-sizing: border-box;
+    /* background: black; */
+    background: url("../login/lgn2.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(241, 233, 233, 0.1);
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 100%;
+    max-width: 535px;
+    border-radius: 10px;
+    height: 80%;
+}
+form h2 {
+    color: rgb(235, 235, 235);
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+form input {
+    border: 0;
+    margin: 20px 0;
+    padding: 20px;
+    outline: none;
+    background: linear-gradient(rgb(255 255 255), rgb(227 227 227));
+    font-size: 15px;
+}
+form  #chk{
+    margin-right: 330px;
+    margin-bottom: -16px;
+    margin-top: 25px;
+}
+form button {
+    padding: 15px;
+    background: white;
+    color: #1d1b1b;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 198px;
+    margin: 6px  auto 0;
+    border-radius: 13px;
+}
+form button a{
+    text-decoration: none;
+}
+
+p{
+    color: aliceblue;
+    margin-top: 34px;
+    font-size: 20px;
+}
+label{
+    color: aliceblue;
+    margin-top: 20px;
+}
+label a{
+    text-decoration: none;
+    color: red;
+}
+p a{
+    text-decoration: none;
+    color: aliceblue;
+}

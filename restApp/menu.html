@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .heading {
+            background-color: brown;
+            color: aliceblue;
+            margin-bottom: 30px;
+            padding: 30px 0;
+            grid-column: 1/-1;
+            text-align: center;
+        }
+
+        .menu {
+            padding: 0 10px 30px 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 20px 40px;
+        }
+
+        .heading>h1 {
+            font-weight: 400;
+            font-size: 30px;
+            letter-spacing: 10px;
+            margin-bottom: 10px;
+        }
+
+        .heading>h3 {
+            font-weight: 600;
+            font-size: 22px;
+            letter-spacing: 2px;
+        }
+
+        .food-items {
+            display: grid;
+            position: relative;
+            grid-template-rows: auto 1fr;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        .food-items img {
+            position: relative;
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        h1 {
+            grid-column: 1/-1;
+            text-align: center;
+        }
+
+        .details {
+            padding: 20px 10px;
+            display: grid;
+            grid-template-rows: auto 1fr 50px;
+            grid-row-gap: 15px;
+        }
+
+        .details-hub {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .details-hub>h5 {
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .price {
+            text-align: right;
+        }
+
+        .details>p {
+            color: rgb(20, 20, 20);
+            font-size: 15px;
+            line-height: 28px;
+            font-weight: 400;
+            align-self: stretch;
+        }
+
+        .details>button {
+            background-color: red;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 5px;
+            width: 180px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="heading">
+            <h1>food train</h1>
+            <h3>&mdash; menu &mdash;</h3>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img src="./images/breakfast1.jpg" alt="">
+            <div class="details">
+                <div class="details-hub">
+                    <h5>bread omelete</h5>
+                    <h5 class="price">$8</h5>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+
+    </div>
+
+
+            <!--
+        <div id="menu-row">
+            <div id="menu_col">
+                <h2>breakfast</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="./images/pc1.avif" alt="">
+                    </div>
+                    <div>
+                        <h3>Tasty Dish 01</h3>
+                        <h4>10$</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    -->
+</body>
+
+</html>
